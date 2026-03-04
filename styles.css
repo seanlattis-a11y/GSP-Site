@@ -1,36 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Geothermal Strategy Partners</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <img src="images/gsp-logo.png" alt="GSP Logo" class="logo">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">Leadership</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Geothermal Strategy Partners</h1>
-    <p>Advancing geothermal development through innovation, strategy, and technical expertise.</p>
-  </section>
-
-  <section class="content">
-    <h2>Our Mission</h2>
-    <p>
-      We provide strategic guidance, analysis, and development support for geothermal initiatives.
-      Our focus is on building sustainable, scalable solutions for the future of clean energy.
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2026 Geothermal Strategy Partners</p>
-  </footer>
-</body>
-</html>
+/* Basic site styles */
+:root{ --primary:#0A5AA6; --accent:#15A4E0; --ink:#333; --bg:#f7f7f7; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--ink);} 
+header { background:white; display:flex; align-items:center; justify-content:space-between; padding:15px 40px; border-bottom:1px solid #ddd; }
+.logo { height:60px; }
+nav a { margin-left:20px; text-decoration:none; color: var(--primary); font-weight:bold; }
+nav a:hover{ color: var(--accent);} 
+.hero { background: #e9f3ff; padding:80px 40px; text-align:center; }
+.content { padding:40px; max-width:1000px; margin:auto; }
+.team-grid { display:flex; gap:40px; flex-wrap:wrap; justify-content:center; }
+.team-member { background:white; padding:20px; border-radius:8px; text-align:center; width:260px; box-shadow:0 3px 6px rgba(0,0,0,0.1);} 
+.headshot { width:100%; border-radius:4px; }
+footer { text-align:center; padding:30px; margin-top:60px; background:#fafafa; border-top:1px solid #ddd; color:#666; }
