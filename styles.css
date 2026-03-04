@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geothermal Strategy Partners</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="images/gsp-logo.png" alt="GSP Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Leadership</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Geothermal Strategy Partners</h1>
+    <p>Advancing geothermal development through innovation, strategy, and technical expertise.</p>
+  </section>
+
+  <section class="content">
+    <h2>Our Mission</h2>
+    <p>
+      We provide strategic guidance, analysis, and development support for geothermal initiatives.
+      Our focus is on building sustainable, scalable solutions for the future of clean energy.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Geothermal Strategy Partners</p>
+  </footer>
+</body>
+</html>
